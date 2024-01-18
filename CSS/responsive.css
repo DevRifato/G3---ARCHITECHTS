@@ -1,0 +1,23 @@
+/* SMALL DEVICES */
+@media screen and (max-width: 576px) {
+    
+    /* defults */
+    .container{
+        width: 95%;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    button{
+        width: auto;
+        height: auto;
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    /* Header */
+    nav{
+        flex-direction: column;
+        gap: 25px;
+    }
+}
