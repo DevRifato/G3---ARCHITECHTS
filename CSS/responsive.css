@@ -1,23 +1,71 @@
 /* SMALL DEVICES */
 @media screen and (max-width: 576px) {
-    
-    /* defults */
-    .container{
-        width: 95%;
-        margin: auto;
-        overflow: hidden;
-    }
-    
-    button{
-        width: auto;
-        height: auto;
-        font-size: 1em;
-        padding: 10px;
-    }
+  /* defults */
+    .header-container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+  }
 
-    /* Header */
-    nav{
-        flex-direction: column;
-        gap: 25px;
+  .container{
+    width: 95%;
+    margin: 130px auto;
+    overflow: hidden;
+  }
+
+  button {
+    width: auto;
+    height: auto;
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  /*===========================
+             Header
+  ============================== */
+  nav {
+    flex-direction: column;
+    gap: 25px;
+  }
+  /*===========================
+               Feactures
+    ============================== */
+    .features_wrraper{
+        flex-direction: column-reverse;
     }
+    .features_title{
+        text-align: center;
+    }
+    .features_title p{
+        width: auto;
+    }
+    .features_title button{
+        margin-bottom: 20px;
+    }
+    .features_img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* Medium DEVICES */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  /* defults */
+  .container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  button {
+    width: auto;
+    height: auto;
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  /* Header */
+  nav {
+    flex-direction: column;
+    gap: 25px;
+  }
 }
