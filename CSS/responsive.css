@@ -1,13 +1,13 @@
 /* SMALL DEVICES */
 @media screen and (max-width: 576px) {
   /* defults */
-    .header-container {
+  .header-container {
     width: 95%;
     margin: auto;
     overflow: hidden;
   }
 
-  .container{
+  .container {
     width: 95%;
     margin: 130px auto;
     overflow: hidden;
@@ -30,29 +30,64 @@
   /*===========================
                Feactures
     ============================== */
-    .features_wrraper{
-        flex-direction: column-reverse;
-    }
-    .features_title{
-        text-align: center;
-    }
-    .features_title p{
-        width: auto;
-    }
-    .features_title button{
-        margin-bottom: 20px;
-    }
-    .features_img{
-        grid-template-columns: repeat(1, 1fr);
-    }
+  .features_wrraper {
+    flex-direction: column-reverse;
+  }
+  .features_title {
+    text-align: center;
+  }
+  .features_title p {
+    width: auto;
+  }
+  .features_title button {
+    margin-bottom: 20px;
+  }
+  .features_img {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /*===========================
+                 Facts
+      ============================== */
+  .facts_title {
+    text-align: center;
+  }
+  .facts_title p {
+    width: auto;
+  }
+  .facts_cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+  }
+  /*===========================
+                 Sponspors
+      ============================== */
+  .sponspors_title p {
+    width: auto;
+  }
+  .sponspors_img {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 25px;
+  }
+  /*===========================
+                Footer
+    ============================== */
+  footer p {
+    padding: 10px;
+  }
 }
 
 /* Medium DEVICES */
 @media screen and (min-width: 577px) and (max-width: 992px) {
   /* defults */
-  .container {
+  .header-container {
     width: 95%;
     margin: auto;
+    overflow: hidden;
+  }
+  .container {
+    width: 95%;
+    margin: 130px auto;
     overflow: hidden;
   }
 
@@ -67,5 +102,53 @@
   nav {
     flex-direction: column;
     gap: 25px;
+  }
+  /*===========================
+               Feactures
+    ============================== */
+  .features_wrraper {
+    flex-direction: column-reverse;
+  }
+  .features_title {
+    text-align: center;
+  }
+  .features_title p {
+    width: auto;
+  }
+  .features_title button {
+    margin-bottom: 20px;
+  }
+  .features_img {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /*===========================
+                     Facts
+          ============================== */
+  .facts_title {
+    text-align: center;
+  }
+  .facts_title p {
+    width: auto;
+  }
+  .facts_cards {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  /*===========================
+                     Sponspors
+          ============================== */
+  .sponspors_title p {
+    width: auto;
+  }
+  .sponspors_img {
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 25px;
+  }
+  /*===========================
+                    Footer
+        ============================== */
+  footer p {
+    padding: 10px;
   }
 }
