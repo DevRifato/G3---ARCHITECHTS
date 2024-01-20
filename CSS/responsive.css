@@ -45,6 +45,39 @@
   .features_img {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  /*===========================
+        features_you_will_love
+  ============================== */
+
+  .you_will_love_wrapper {
+    flex-direction: column;
+  }
+
+  .you_will_love_card {
+    width: auto;
+    padding: 10px;
+  }
+  .you_will_love_title p,
+  .you_will_love_card p {
+    width: auto;
+  }
+  .you_will_love_img img {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .years_exp h2 {
+    font-size: 2rem;
+  }
+  .years_exp {
+    width: 275px;
+    height: 110px;
+    right: 0;
+    box-shadow: 0px 0px 20px 0px #ff900e;
+    margin: auto;
+  }
+
   /*===========================
                  Facts
       ============================== */
